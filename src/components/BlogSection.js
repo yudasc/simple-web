@@ -19,7 +19,7 @@ const blogPosts = [
   {
     date: "Okt 23, 2021",
     title: "🗾 Load KML File To Your React Native Maps ",
-    link: "#",
+    link: "https://akaditasustono.blogspot.com/2021/10/load-kml-file-to-your-react-native-maps.html",
   },
 ];
 
