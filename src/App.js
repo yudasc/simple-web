@@ -1,24 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Header from "./components/Header";
+import LandingPage from "./LandingPage";
+import BlogPage from "./BlogPage";
+
+/**
+ * Prieyuda Akadita S
+ * NIM: 240401010353
+ * Prodi: PJJ Informatika
+ * Kelas: IF 203
+ * Mata Kuliah: Pemrograman Web
+ * Dosen: Riad Sahara, S.SI., M.T.
+ */
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div className="root-container">
+        <Header />
+      </div>
+      <Routes>
+        <Route path="/" element={<LandingPage />} />
+        <Route path="/blog" element={<BlogPage />} />
+      </Routes>
+    </Router>
   );
 }
 
