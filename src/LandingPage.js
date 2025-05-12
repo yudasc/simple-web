@@ -30,8 +30,13 @@ export default function LandingPage() {
               Saya suka belajar hal baru dan problem solving melalui teknologi.
               <br></br>
               Sekarang sedang belajar{" "}
-              <span className="highlight">web development</span> utamanya adalah{" "}
-              <span className="highlight">ReactJS/NextJS</span>
+              <span className="highlight">
+                <i>web development</i>
+              </span>{" "}
+              utamanya adalah{" "}
+              <span className="highlight">
+                <i>ReactJS/NextJS</i>
+              </span>
             </div>
           </div>
         </div>

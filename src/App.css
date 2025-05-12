@@ -376,6 +376,19 @@ body.dark .custom-table tr:hover td {
   cursor: pointer;
 }
 
+.blog-row {
+  display: flex;
+  flex-direction: row;
+  gap: 1.2rem;
+  align-items: center;
+}
+
+.blog-row img {
+  width: 64px;
+  height: 64px;
+  border-radius: 8px;
+}
+
 body.dark .blogList {
   background: #18181b;
 }
